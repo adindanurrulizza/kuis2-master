@@ -1,7 +1,7 @@
 version: '2'
 services:
   php-apache-environment:
-    image: adinda26/kuis2
+    image: adinda26/kuis2-master
     container_name: php-apache
     depends_on:
       - db
